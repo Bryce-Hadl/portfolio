@@ -59,7 +59,7 @@
     margin-top: auto;
   }
   
-  .products {
+  .content {
     flex: 1;
     background-color: var(--light);
     padding: 50px;
