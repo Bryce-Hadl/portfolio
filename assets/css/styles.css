@@ -25,11 +25,6 @@
     border-color: #10bcd6;
     border-radius: 100%;
     flex-wrap: wrap;
-    -webkit-backdrop-filter: blur(15px) saturate(3);
-      backdrop-filter: blur(15px) saturate(3);
-      /* These lines prevent the border box from clipping the blur effect */
-     padding: 10px;
-     margin: -10px;
   }
 
   img {
