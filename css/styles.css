@@ -1,8 +1,9 @@
 :root {
     --dark: #13293d;
-    --light: #fff;
+    --light: #bdd0d8;
     --bo: 50px;
   }
+
   body {
     font-size: 16px;
     display: flex;
@@ -10,7 +11,31 @@
     min-height: 100vh;
     justify-content: flex-start;
   }
-  
+  .para { 
+    border: #ffffff;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    flex-direction: center;
+
+  }
+  .avatar {
+    vertical-align: center;
+    width: 200px;
+    height: 200px;
+    border-color: #10bcd6;
+    border-radius: 100%;
+    flex-wrap: wrap;
+    -webkit-backdrop-filter: blur(15px) saturate(3);
+      backdrop-filter: blur(15px) saturate(3);
+      /* These lines prevent the border box from clipping the blur effect */
+     padding: 10px;
+     margin: -10px;
+  }
+
+  img {
+    border: 5px solid #ffffff;
+  }
+
   h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
@@ -22,15 +47,15 @@
   }
   
   header {
-    padding: 40px;
-    text-align: center;
+    padding: 20px;
+    text-align: space-evenly;
     background-color: var(--dark);
     color: var(--light);
   }
   
   nav {
     display: flex;
-    background-color: #d8a47f;
+    background-color: #16cab5;
   }
   
   nav a {
@@ -65,36 +90,33 @@
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
   }
-  
+ 
   .card {
     border-style: solid;
     border-width: 1px;
     border-radius: var(--bo);
     padding: 10px;
     flex: 0 0 300px;
-    transform: rotate(8deg);
-    box-shadow: 10px 10px 5px #aaaaaa;
     margin: 20px;
   }
   
   .card > header {
-    border-radius: var(bo);
+    border-radius: var(--bo);
     padding: 20px;
   }
-  
+ 
   .card > p {
-    text-align: center;
+    text-align: justify;
+  } 
+
+  footer {
+    flex-wrap: space-evenly;
   }
   
-  .card > img {
+  ul {
     width: 100%;
-  }
-  
-  @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
+    padding-left: 0;
+    flex-wrap: center;
   }
