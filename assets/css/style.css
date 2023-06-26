@@ -16,7 +16,6 @@
     border-radius: 50px;
     flex-wrap: wrap;
     flex-direction: row;
-
   }
   .avatar {
     vertical-align: center;
@@ -73,7 +72,6 @@
     color: var(--light);
     margin-top: auto;
     flex-wrap: wrap;
-    
   }
   
   .content {
