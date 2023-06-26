@@ -15,7 +15,7 @@
     border: #ffffff;
     border-radius: 50px;
     flex-wrap: wrap;
-    flex-direction: center;
+    flex-direction: row;
 
   }
   .avatar {
@@ -48,7 +48,7 @@
   
   header {
     padding: 20px;
-    text-align: space-evenly;
+    text-align: center;
     background-color: var(--dark);
     color: var(--light);
   }
@@ -110,13 +110,13 @@
   .card > p {
     text-align: justify;
   } 
-
-  footer {
-    flex-wrap: space-evenly;
-  }
   
   ul {
     width: 100%;
     padding-left: 0;
-    flex-wrap: center;
+    flex-wrap: wrap;
+  }
+  
+  footer {
+    flex-wrap: wrap;
   }
